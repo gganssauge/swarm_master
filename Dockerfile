@@ -1,4 +1,4 @@
-FROM jenkinsci/jenkins:1.642.3
+FROM jenkins:1.642.3
 MAINTAINER Gottfried Ganßauge <Gottfried.Ganssauge@haufe-lexware.com>
 COPY jenkins_plugins.txt /tmp/jenkins_plugins.txt
 RUN cp /usr/share/zoneinfo/Europe/Berlin /etc/localtime
